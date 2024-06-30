@@ -1,0 +1,98 @@
+body {
+    background-color: #2e2e2e;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #f0f0f0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #ffa500;  /* Adjusted to a more visible shade of orange */
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin: 20px;
+    color: #e0e0e0;
+}
+
+.input-section label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #ffa500;  /* Adjusted to match the header color for consistency */
+}
+
+.input-section input, .input-section select {
+    padding: 10px;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ffa500;
+    border-radius: 5px;
+    color: #e0e0e0;
+}
+
+.input-section button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-section button:hover {
+    background-color: #e07b00;
+}
+
+.expenses-list {
+    margin: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    color: #e0e0e0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e0e0e0;
+}
+
+th, td {
+    border: 1px solid #ffa500;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1a1a1a;
+    color: #ffa500;
+}
+
+tfoot td {
+    font-weight: bold;
+    color: #ffa500;  /* Adjusted for better visibility */
+}
+
+.delete-btn {
+    padding: 10px 20px;
+    background-color: #e07b00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #ff5733;
+}
